@@ -1,0 +1,55 @@
+[
+  {
+    "command": "workbench.action.toggleSidebarVisibility",
+    "key": "ctrl+e"
+  },
+  {
+    "command": "workbench.action.findInFiles",
+    "key": "ctrl+g"
+  },
+  {
+    "command": "workbench.files.action.focusFilesExplorer",
+    "key": "ctrl+e",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+5",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "renameFile",
+    "key": "r",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "d",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "command": "deleteFile",
+    "key": "shift+d",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.quickOpenNavigateNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.quickOpenNavigatePrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "editor.action.marker.next",
+    "when": "editorFocus"
+  }
+]
